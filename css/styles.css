@@ -1,0 +1,199 @@
+/* -------------------- HTML TAGS -------------------- */
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /*font-size: 2em;*/
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /* 100% = 16px = 1em*/
+  color: #00008b;
+  /*line-height: 2;*/
+  /*width: 10%;
+  margin: 0 auto;*/
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #00008b;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #0502a8;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #0502a8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr {
+  /*
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: #87CEFA;
+  width: 10%;
+  */
+  border: dotted #87CEFA 60px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+}
+
+/* -------------------- End of HTML TAGS -------------------- */
+
+/* -------------------- DIV classes -------------------- */
+
+.top-container{
+  background-color: #87CEFA;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  margin-top: 50px;
+  background-color: #87CEFA;
+  padding: 50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* -------------------- End of DIV classes -------------------- */
+
+/* -------------------- <p> TAG classes -------------------- */
+.intro{
+  width: 30%
+  margin: auto;
+}
+
+.contact-message{
+  /*
+  width: 10%;
+  margin: 40px auto 60px;
+  */
+  margin-bottom: 50px;
+}
+
+.copyright{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  color: grey;
+  padding-top: 20px;
+}
+
+/* -------------------- End of <p> TAG classes -------------------- */
+
+/* -------------------- <a> TAG classes -------------------- */
+
+.footer-link{
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/* -------------------- End of <a> TAG classes -------------------- */
+
+/* -------------------- <img> TAG classes -------------------- */
+
+.cloud1{
+  position: absolute;
+  right: 200px;
+  top: 20px;
+  width: 20%;
+  height: 20%;
+}
+
+.cloud2{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  width: 20%;
+  height: 20%;
+}
+
+.profile_pic{
+  width: 20%;
+  height: 20%;
+}
+
+.webdev_pic{
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mobiledev_pic{
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.machinelearning_pic{
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* -------------------- End of <img> TAG classes -------------------- */
+
+/* --------------------  -------------------- */
